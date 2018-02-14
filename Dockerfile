@@ -3,7 +3,7 @@ FROM alpine
 MAINTAINER JAremko <w3techplaygound@gmail.com>
 
 # Kudos to @urzds for Xpra building example
-ENV XPRA_VERSION=2.0.1
+ENV XPRA_VERSION=2.2.4
 
 RUN echo "http://nl.alpinelinux.org/alpine/edge/testing" \
     >> /etc/apk/repositories \
